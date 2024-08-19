@@ -1,11 +1,13 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
+// import './App.css';
+import MyCalendar from './components/my-calendar';
 
 function Home() {
   return (
-    <div className="home">
+    <>
       <h1>Spend Tracker</h1>
-    </div>
+      <MyCalendar />
+    </>
   );
 }
 
