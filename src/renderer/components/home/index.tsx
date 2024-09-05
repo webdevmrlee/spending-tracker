@@ -1,10 +1,12 @@
-import MyCalendar from './my-calendar';
+import MyCalendar from './spender-table';
+import CreditCardAdder from './credit-card-adder';
 
 function Home() {
   return (
     <>
       <h1>Spend Tracker</h1>
       <MyCalendar />
+      <CreditCardAdder />
     </>
   );
 }
